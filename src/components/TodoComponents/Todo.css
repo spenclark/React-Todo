@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.itemdone{
+    text-decoration: line-through;
+}
+
+.intro{
+    margin: 2% auto;
+    text-align: center;
+}
+
+.formDiv{
+    margin: 5% auto;
+    text-align: center;
+}
+
+input{
+    padding: 3px 12px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 2px solid #3ECF8E;
+}
+.btn{
+    color: white;
+    background: #6772E5;
+    border: 1px solid #6772E5;
+    border-radius: 7px;;
+    padding: 3px 16px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: #7795f8;
+    border: 1px solid #7795f8;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card{
+    padding: 20px;
+    border-radius: 7px;
+    margin: 5% auto;
+    text-align: center;
+    width: 25%;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2{
+    color: #6772E5
+}
+
+label{
+    color: #3ECF8E
+    
+}
+
+p{
+    color: #6B7C93;
+}
