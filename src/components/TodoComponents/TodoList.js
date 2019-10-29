@@ -14,10 +14,11 @@ const TodoList = props => {
                     key={item.id}
                     item={item}
                     toggleDone={props.toggleDone}
+                    clearDone={props.clearDone}
                 />
                 )}
                 <button className="clear-btn" onClick={props.clearDone}>
-                    Clear Purchased
+                    Clear Done
                 </button>
         </div>
     )

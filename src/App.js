@@ -51,6 +51,12 @@ class App extends React.Component {
     })
   }
 
+  clearDone = () => {
+    this.setState({
+      todo: this.state.todo.filter( item => !item.done )
+    })
+    console.log("Clear button pressed")
+  }
 
  
   render() {
@@ -59,6 +65,7 @@ class App extends React.Component {
         <TodoForm addItem={this.addItem} />
 
         <TodoList todo={this.state.todo} toggleDone={this.toggleDone}
+        clearDone={this.clearDone}
 />
       </div>
     );
