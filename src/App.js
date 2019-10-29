@@ -6,11 +6,15 @@ import './components/TodoComponents/Todo.css'
 
 const data = [
   {
-    name: "Welcome to my Todo List!",
-    id: 1,
+    name: "Welcome to my Todo List! Use the above form to create new items, and when you are done with them just click on them and press the button below. Enjoy :D",
+    id: 2,
     done: false
   },
-
+  {
+    name: "Make dinner",
+    id: 1,
+    done: true
+  },
 ]
 
 
@@ -62,6 +66,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <div className="intro">
+          <h2>The best Todo List on the internet</h2>
+        </div>
         <TodoForm addItem={this.addItem} />
 
         <TodoList todo={this.state.todo} toggleDone={this.toggleDone}
