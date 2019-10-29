@@ -11,7 +11,7 @@ body{
 }
 
 .formDiv{
-    margin: 2% auto;
+    margin: 5% auto;
     text-align: center;
 }
 
@@ -54,4 +54,8 @@ h2{
 label{
     color: #3ECF8E
     
+}
+
+p{
+    color: #6B7C93;
 }
